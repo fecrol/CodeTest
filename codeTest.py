@@ -37,5 +37,3 @@ def display_solution(a, x):
         to achieve the outcome of A until X, A + 1 until 2X, and A + 2 until 3X
         """
         print(multiples_of_a_until_x(a + i, x * (i + 1)))
-
-display_solution(3, 24)
